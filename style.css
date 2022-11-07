@@ -1,0 +1,91 @@
+
+.navbar {
+background-color: white;
+}
+
+nav {
+    background-color: #F5EDE2;
+    color: #202125
+}
+nav .nav-link {
+    color: black;
+}
+
+nav .nav-link:hover {
+    color: #FE6C3B;
+}
+
+.navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+body {
+    font-family: 'Archivo', sans-serif;
+    background-color: white;
+}
+
+h3 {
+    background-color: white;
+    color: black;
+    font-style: italic;
+}
+
+
+.eventos {
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.card-text {
+    text-align: left;
+}
+
+.about-us {
+    font-size: 20px;
+}
+
+.accordion-button {
+    background-color: black;
+    color: white;
+}
+
+.accordion-button::after {
+    background-color: #FE6C3B;
+}
+.accordion-item {
+    background-color: white;
+}
+
+
+.card-direction {
+    background-color: #CEDBF1;
+}
+.card-text-direction {
+    color: black
+}
+
+.card-title-direction {
+    color: black;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
